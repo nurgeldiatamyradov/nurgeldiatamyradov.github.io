@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body class="bg-body text-white font-poppins pb-12">
+    
+    <header class="py-6">
+        <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+            <div class="text-lg font-bold">nurgeldi</div>
+            <div class="hidden md:flex space-x-12 items-center">
+                <a href="#" class="text-selected-text">Home</a>
+                <a href="#about-me">About Me</a>
+                <a href="#projects">My work</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact"><button class="px-6 py-2 bg-theme font-bold">Contact</button></a>
+            </div>
+            <div class="md:hidden">
+                <svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 17.5H0.25V14.6667H13V17.5ZM25.75 10.4167H0.25V7.58333H25.75V10.4167ZM25.75 3.33333H13V0.5H25.75V3.33333Z" fill="white"/></svg>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container mt-16 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+        <div class="flex flex-wrap md:flex-nowrap">
+
+            <nav class="inline-block lg:mr-24 lg:w-4 fixed left-percentage hidden xl:block">
+                <div class="absolute left-50 transform -translate-x-1/2 space-y-6 mt-36">
+                    <a href="#" class="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Home</span>
+                    </a>
+                    <a href="#about-me" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">About</span>
+                    </a>
+                    <a href="#projects" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Works</span>
+                    </a>
+                    <a href="#skills" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Skills</span>
+                    </a>
+					<a href="#contact" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Contact</span>
+                    </a>
+                </div>
+            </nav>
+
+            <div class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36">
+                <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left "><br>Self Taught Front-End Developer</h1>
+                
+            </div>
+            <img src="img/man.png" alt="Man" class="w-3/4 mt-4 md:absolute -mt-6 md:mt-0 right-0 -z-1">
+        </div>
+    </div>
+
+		<!-- About Me -->
+		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+			<section class="w-full">
+				<h2 id="about-me" class="secondary-title">About Me</h2>
+				<p class="section-paragraph">I am a passionate JavaScript developer who has experience with Vue.js. My passion for software lies with dreaming up ideas and making them come true with elegant interfaces. I am always doing that which I cannot do, in order that I may learn how to do it.</p>
+
+			</section>
+		</div>
+
+
+
+
+		<!-- Projects -->
+		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+			<section class="w-full">
+				<h2 id="projects" class="secondary-title">My works</h2>
+				
+				<div class="space-y-12 my-16">
+					<div class="w-full border bg-orange border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+						
+						
+						<div class="mb-6 lg:mb-0">
+						<img src="img/blog1.jpg" class="object-contain" alt="landing page">	
+						</div>
+
+						
+						<div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+							<h3 class="text-white text-3xl font-semibold">Landing Page</h3>
+							<p class="text-secondary">This project is built according to Fontend Mentor challenge. The challange includes  responsive website design and user friendly. By this project I improved my SASS syntax knowledge.</p></p>
+
+							<div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
+								<div class="badge">HTML</div>
+								<div class="badge">CSS</div>
+								<div class="badge">SASS</div>
+								<div class="badge">JavaScript</div>
+							</div>
+							<div class="flex flex-row">
+								<a href="https://dancing-conkies-0d5816.netlify.app" target="_blank"><button class="px-8 py-4 bg-theme text-white font-bold mt-4 m-5 flex items-center space-x-3">
+									<span>Live  </span>
+								</button></a>
+
+								<a href="https://github.com/nurgeldiatamyradov/Landing-Page-demo" target="_blank"><button class="px-8 py-4 bg-theme text-white font-bold mt-4 m-5 flex items-center space-x-3">
+									<span>Source</span>
+								</button></a>
+
+							</div>
+
+						</div>
+
+					</div>
+					<div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+						
+						
+						<div class="mb-6 lg:mb-0">
+						<img src="img/blog2.jpg" class="object-contain " alt="weather app">	
+							
+						</div>
+
+						
+						<div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+							<h3 class="text-white text-3xl font-semibold">Weather App</h3>
+							<p class="text-secondary pt-5">In this project user can search cities or towns and display currently, hourly and weekly weather forecasts. Beside it you can save your city or town to local storage and remove it. In this project https://openweathermap.org/ and https://www.mapbox.com/ APIs are requested and compenents and routers of Vue are 3 used. And the project is styled with TailwindCSS and responsive design.</p>
+
+							<div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
+								<div class="badge">HTML</div>
+								<div class="badge">TailwindCSS</div>
+								<div class="badge">SASS</div>
+								<div class="badge">JavaScript</div>
+								<div class="badge">Vue 3</div>
+								<div class="badge">Vite</div>
+								<div class="badge">APIs</div>
+								
+							</div>
+							<div class="flex flex-row">
+								<a href="https://dapper-chebakia-15c6dc.netlify.app/" target="_blank"><button class="px-8 py-4 bg-theme text-white font-bold mt-4 m-5 flex items-center space-x-3">
+									<span>Live  </span>
+								</button></a>
+
+								<a href="https://github.com/nurgeldiatamyradov/weatherApp-vue3" target="_blank"><button class="px-8 py-4 bg-theme text-white font-bold mt-4 m-5 flex items-center space-x-3">
+									<span>Source</span>
+								</button></a>
+
+							</div>
+
+						</div>
+
+					</div>
+					<div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+						
+						
+						<div class="mb-6 lg:mb-0">
+						<img src="img/blog3.jpg" class="object-contain " alt="weather app">	
+
+						</div>
+
+						
+						<div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+							<h3 class="text-white text-3xl font-semibold">Todo List</h3>
+							<p class="text-secondary">By application user can make categorised (business or personal) todo lists and save it to local storage of browser and select which tasks are done and remove.</p>
+
+							<div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
+								<div class="badge">HTML</div>
+								<div class="badge">SASS</div>
+								<div class="badge">JavaScript</div>
+								<div class="badge">Vue 3</div>
+								<div class="badge">Vite</div>
+							</div>
+							<div class="flex flex-row">
+								<a href="https://630cfcf9cfd2db02c233efb0--effervescent-frangipane-f56323.netlify.app/" target="_blank"><button class="px-8 py-4 bg-theme text-white font-bold mt-4 m-5 flex items-center space-x-3">
+									<span>Live  </span>
+								</button></a>
+
+								<a href="https://github.com/nurgeldiatamyradov/todoList-vue3" target="_blank"><button class="px-8 py-4 bg-theme text-white font-bold mt-4 m-5 flex items-center space-x-3">
+									<span>Source</span>
+								</button></a>
+
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+
+			</section>
+		</div>
+
+
+		<!-- Skills -->
+		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+			<section class="w-full">
+				<h2 id="skills" class="secondary-title">Skills</h2>
+				<div class="skills__content grid" data-content id="skills">
+					
+						
+
+						<div class="skills__box">
+							<div class="skills__group">
+								<div class="skills__data">
+									<i class="ri-checkbox-circle-line"></i>
+	
+									<div>
+										<h3 class="skills__name text-xl">HTML</h3>
+										<span class="skills__level">Advanced</span>
+									</div>
+								</div>
+	
+								<div class="skills__data">
+									<i class="ri-checkbox-circle-line"></i>
+	
+									<div>
+										<h3 class="skills__name">CSS</h3>
+										<span class="skills__level">Advanced</span>
+									</div>
+								</div>
+	
+								<div class="skills__data">
+									<i class="ri-checkbox-circle-line"></i>
+	
+									<div>
+										<h3 class="skills__name">JavaScript</h3>
+										<span class="skills__level">Intermediate</span>
+									</div>
+								</div>
+								<div class="skills__data">
+									<i class="ri-checkbox-circle-line"></i>
+	
+									<div>
+										<h3 class="skills__name">SASS</h3>
+										<span class="skills__level">Intermediate</span>
+									</div>
+								</div>
+
+							</div>
+							
+							
+
+							<div class="skills__group">
+								<div class="skills__data">
+									<i class="ri-checkbox-circle-line"></i>
+	
+									<div>
+										<h3 class="skills__name">Vue 3</h3>
+										<span class="skills__level">Intermediate</span>
+									</div>
+								</div>
+	
+								<div class="skills__data">
+									<i class="ri-checkbox-circle-line"></i>
+	
+									<div>
+										<h3 class="skills__name">Terminal</h3>
+										<span class="skills__level">Intermediate</span>
+									</div>
+								</div>
+	
+								<div class="skills__data">
+									<i class="ri-checkbox-circle-line"></i>
+	
+									<div>
+										<h3 class="skills__name">Git</h3>
+										<span class="skills__level">Intermediate</span>
+									</div>
+								</div>
+								<div class="skills__data">
+									<i class="ri-checkbox-circle-line"></i>
+	
+									<div>
+										<h3 class="skills__name">Tailwindcss</h3>
+										<span class="skills__level">Intermediate</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+				</div>
+			
+
+			</section>
+		</div>
+
+
+		<!-- Contact -->
+		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+			<section class="w-full">
+				<h2 id="contact" class="secondary-title">Contact</h2>
+				<p class="section-paragraph">Feel free to to contact me any time, through any method below.</p>
+
+				<div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
+					<form action="https://formsubmit.co/atamyradovn@gmail.com" class="space-y-12" method="POST">
+						<div>
+							<label class="text-white block mb-6 text-xl font-bold">Name</label>
+							<input type="text" name="name" class="w-full border border-input-border bg-input px-4 py-4"required>
+						</div>
+						<div>
+							<label class="text-white block mb-6 text-xl font-bold">Email</label>
+							<input type="email" name="email" class="w-full border border-input-border bg-input px-4 py-4" required>
+						</div>
+						<div>
+							<label class="text-white block mb-6 text-xl font-bold">Message</label>
+							<textarea type="email" name="Message" class="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none"></textarea>
+						</div>
+						<button type="submit" class="px-6 py-2 bg-theme text-white font-bold">Send it!</button>
+
+					</form>
+				
+					<div class="mt-12">
+						<!-- Contact info -->
+						<p class="text-secondary">+48 732 703 419</p>
+						<a href="mailto:email@mydomain.com" class="text-secondary underline mt-3 block">atamyradovn@gmail.com</a>
+
+						<!-- Socials -->
+						<div class="flex mt-20 space-x-6">
+							<!-- Linkedin -->
+							<a href="https://www.linkedin.com/in/nurgeldi-atamyradov/" target="_blank">
+								<svg  class="w-8 h-8 lg:w-12 lg:h-12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" fill="white"/></svg>
+							</a>
+							<!-- Github -->
+							<a href="https://github.com/nurgeldiatamyradov" target="_blank">
+								<svg class="w-8 h-8 lg:w-12 lg:h-12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z" fill="white"/></svg>								
+							</a>
+							<a href="https://www.instagram.com/_murgap/" target="_blank">
+								<svg class="w-8 h-8 lg:w-12 lg:h-12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" fill="white"/></svg>
+							</a>
+						</div>
+					</div>
+					
+				</div>
+
+			</section>
+		</div>
+
+        <script src="main.js"></script>
+
+</body>
+</html>
